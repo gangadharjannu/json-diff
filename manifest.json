@@ -1,0 +1,17 @@
+{
+    "name": "JSON Diff",
+    "version": "0.1",
+    "description": "Chrome extension for JSON Diff",
+    "manifest_version": 2,
+    "permissions": ["tabs"],
+    "icons": {
+        "16": "json-diff-16.png"
+    },
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_title": "Navigate to JSON Diff local"
+    }
+}
