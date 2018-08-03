@@ -5,7 +5,7 @@
     "manifest_version": 2,
     "permissions": ["tabs"],
     "icons": {
-        "16": "json-diff-16.png"
+        "16": "jdd/json-diff-16.png"
     },
     "background": {
         "scripts": ["background.js"],
