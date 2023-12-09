@@ -1,17 +1,17 @@
 {
-    "name": "JSON Diff",
-    "version": "0.1",
-    "description": "JSON Diff chrome extension which works offline",
-    "manifest_version": 2,
-    "permissions": ["tabs"],
-    "icons": {
-        "16": "json-diff-16.png"
-    },
-    "background": {
-        "scripts": ["background.js"],
-        "persistent": false
-    },
-    "browser_action": {
-        "default_title": "JSON Diff offline"
-    }
+  "name": "JSON Diff",
+  "version": "0.3",
+  "description": "JSON Diff chrome extension which works offline",
+  "manifest_version": 3,
+  "permissions": ["tabs"],
+  "icons": {
+    "16": "json-diff-16.png"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "JSON Diff offline"
+  }
 }

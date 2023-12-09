@@ -1,8 +1,12 @@
-chrome.browserAction.onClicked.addListener(function (tab) {
-    chrome.tabs.create({
-        'url': chrome.extension.getURL('jdd/index.html'),
-    }, function (tab) {
-        // TODO: tab opened
+chrome.action.onClicked.addListener(handleActionClick);
 
-    });
-});
+function handleActionClick(tab) {
+  chrome.tabs.create(
+    {
+      url: chrome.runtime.getURL("jdd/index.html"),
+    },
+    function (tab) {
+      // TODO: tab opened
+    }
+  );
+}
