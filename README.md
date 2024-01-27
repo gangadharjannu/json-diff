@@ -1,10 +1,10 @@
 # JSON Diff
 
-Offline browser extension for [http://www.jsondiff.com](http://www.jsondiff.com)
+Offline browser extension for [https://jsondiff.com/](https://jsondiff.com/)
 
 ## Motivation
 
-I regularly use [http://www.jsondiff.com](http://www.jsondiff.com) for comparing JSON documents however it is a website and I have to have internet connectivity always to use it.
+I regularly use [https://jsondiff.com/](https://jsondiff.com/) for comparing JSON documents however it is a website and I have to have internet connectivity always to use it.
 
 So I decided to build a web extension which works offline and easily accessible on a button click.
 
