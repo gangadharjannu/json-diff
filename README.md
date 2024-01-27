@@ -1,15 +1,28 @@
-## jsondiff : Chrome/Firefox extension for jsondiff.com  
+# JSON Diff
 
-I regularly use jsondiff.com for comparing JSON documents however I have to have internet connectivity everytime I use, as it is a web page. 
+Offline browser extension for [http://www.jsondiff.com](http://www.jsondiff.com)
 
-So I decided to build a web extension which works offline and easily accessible on a button click.  
-In addition to that I've removed the underscore.js and in a process of removing jQuery too which will reduce the size the extension. I will update the extension once it is approved.
+## Motivation
 
-Extension is available at   
-chrome: https://chrome.google.com/webstore/detail/json-diff/dmndidoancoefdoobhbmjgignfimpmpj  
-firefox: https://addons.mozilla.org/en-US/firefox/addon/json-diff/  
-  
-Below is the extension screenshot  
+I regularly use [http://www.jsondiff.com](http://www.jsondiff.com) for comparing JSON documents however it is a website and I have to have internet connectivity always to use it.
 
-![jsondiff extension](https://addons.cdn.mozilla.net/user-media/previews/full/206/206546.png?modified=1533378092)
+So I decided to build a web extension which works offline and easily accessible on a button click.
 
+## Advantages of extension
+
+1. Since this is a offline extension, you download once and run on your laptop whether you are connected to internet or not.
+2. Sometimes, the JSON documents we compare may include sensitive information, and it's very important to review the privacy policies and data handling practices of any website before uploading them. However, with the offline extension `JSON Diff`, you can use it without concerns about privacy policies and data handling, as it operates offline.
+
+> **Your data stays in your browser and never leaves your system**.
+
+## Download
+
+To download the extension, visit below links on your respective browsers
+
+Google Chrome: https://chrome.google.com/webstore/detail/json-diff/dmndidoancoefdoobhbmjgignfimpmpj
+
+Mozilla Firefox: https://addons.mozilla.org/en-US/firefox/addon/json-diff/
+
+Below is the extension screenshot
+
+![jsondiff extension](extension.jpg)
