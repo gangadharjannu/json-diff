@@ -1171,7 +1171,14 @@ var jdd = {
 
 
 
-document.addEventListener('DOMContentLoaded', function() {        
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelector('#fileLeft').addEventListener('change', function () {
+        jdd.handleFiles(this.files, 'left');
+    });
+    document.querySelector('#fileRight').addEventListener('change', function () {
+        jdd.handleFiles(this.files, 'right');
+    });
+
     document.getElementById('compare').addEventListener('click', function () {
         jdd.compare();
     });
