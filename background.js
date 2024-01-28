@@ -1,4 +1,4 @@
-chrome.action.onClicked.addListener(handleActionClick);
+chrome.browserAction.onClicked.addListener(handleActionClick);
 
 function handleActionClick(tab) {
   chrome.tabs.create(
