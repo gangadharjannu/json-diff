@@ -1,6 +1,6 @@
 {
   "name": "JSON Diff",
-  "version": "0.3",
+  "version": "0.4",
   "description": "JSON Diff chrome extension which works offline",
   "manifest_version": 3,
   "permissions": ["tabs"],
